@@ -1,0 +1,254 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+main {
+  height: 100vh;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), 10px 10px 20px rgba(0, 0, 0, 0.5), 15px 15px 30px rgba(0, 0, 0, 0.5),
+    20px 20px 40px rgba(0, 0, 0, 0.5), 25px 25px 50px rgba(0, 0, 0, 0.5);
+  background: rgb(18, 28, 157);
+  background: linear-gradient(0deg, rgba(18, 28, 157, 1) 0%, rgba(46, 175, 114, 1) 93%, rgba(74, 208, 104, 1) 100%);
+}
+
+.red-circle {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 600px;
+  width: 600px;
+  border-radius: 50%;
+  background-color: #b11e24;
+}
+
+.middle-position {
+  position: relative;
+  top: 50px;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div {
+  margin: 2px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6 {
+  position: relative;
+  width: 0;
+  border-top: 0px solid #60af39;
+  border-left: 45px solid transparent;
+  border-right: 5px solid transparent;
+}
+
+.item1 {
+  left: 420px;
+  height: 315px;
+  transform: skew(-68deg);
+  border-bottom: 25px solid #60af39;
+}
+
+.item2 {
+  left: 263px;
+  height: 290px;
+  transform: skew(-57deg);
+  border-bottom: 50px solid #60af39;
+}
+
+.item3 {
+  left: 166px;
+  height: 254px;
+  transform: skew(-44deg);
+  border-bottom: 86px solid #60af39;
+}
+
+.item4 {
+  left: 100px;
+  height: 204px;
+  transform: skew(-30deg);
+  border-bottom: 136px solid #60af39;
+}
+
+.item5 {
+  left: 57px;
+  height: 130px;
+  transform: skew(-18deg);
+  border-bottom: 210px solid #60af39;
+}
+
+.item6 {
+  left: 25px;
+  height: 60px;
+  transform: skew(-8deg);
+  border-bottom: 280px solid #60af39;
+}
+
+.middle {
+  position: relative;
+  bottom: 45px;
+}
+.red {
+  position: absolute;
+  z-index: 5;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #af1a1f;
+  bottom: 20%;
+  left: 5%;
+}
+
+.item7 {
+  position: relative;
+  left: 10px;
+  width: 0;
+  height: 100px;
+  border-top: 0px solid #60af39;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 230px solid #60af39;
+}
+
+.item8 {
+  position: relative;
+  border-top: 0;
+  border-bottom: 100px solid #60af39;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  height: 0;
+  width: 60px;
+}
+
+.item9,
+.item10,
+.item11,
+.item12,
+.item13,
+.item14 {
+  position: relative;
+  width: 0;
+  border-top: 0px solid #60af39;
+  border-left: 5px solid transparent;
+  border-right: 45px solid transparent;
+}
+
+.item9 {
+  right: 25px;
+  height: 60px;
+  transform: skew(8deg);
+  border-bottom: 280px solid #60af39;
+}
+
+.item10 {
+  right: 57px;
+  height: 130px;
+  transform: skew(18deg);
+  border-bottom: 210px solid #60af39;
+}
+
+.item11 {
+  right: 100px;
+
+  height: 204px;
+  transform: skew(30deg);
+  border-bottom: 136px solid #60af39;
+}
+
+.item12 {
+  right: 166px;
+  height: 254px;
+  transform: skew(44deg);
+  border-bottom: 86px solid #60af39;
+}
+
+.item13 {
+  right: 263px;
+  height: 290px;
+  transform: skew(57deg);
+  border-bottom: 50px solid #60af39;
+}
+
+.item14 {
+  right: 420px;
+  height: 315px;
+  transform: skew(68deg);
+  border-bottom: 25px solid #60af39;
+}
+
+.base {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 88%;
+}
+
+.stair {
+  position: relative;
+  width: 710px;
+  height: 15px;
+  background-color: #60af39;
+  border-radius: 1rem;
+  transform: skew(-35deg);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5), 10px 10px 20px rgba(0, 0, 0, 0.5), 15px 15px 30px rgba(0, 0, 0, 0.5),
+    20px 20px 40px rgba(0, 0, 0, 0.5), 25px 25px 50px rgba(0, 0, 0, 0.5);
+}
+
+.flag {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  bottom: 10%;
+}
+
+.red-part {
+  position: relative;
+  left: 40%;
+  margin-bottom: 70%;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background-color: #af1a1f;
+}
+
+.green-part {
+  margin-top: 4px;
+  margin-bottom: 70%;
+  height: 100px;
+  width: 200px;
+  background-color: #217822;
+}
+
+.long-bamboo {
+  position: relative;
+  right: 4%;
+  height: 300px;
+  width: 10px;
+  background-color: black;
+}
+
+.finish {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.finish > div {
+  margin-bottom: 10%;
+  position: relative;
+  top: 200px;
+  font-size: 70px;
+  color: #af1a1f;
+}
+
+.finish span {
+  color: #60af39;
+}
